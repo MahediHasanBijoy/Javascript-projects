@@ -141,6 +141,9 @@ document.getElementById('save-btn').addEventListener('click', ()=>{
 
   let savePercentage = document.getElementById('save').value;
   let balance = parseFloat(document.getElementById('balance').innerText);
+  if(balance=''){
+    balance = 0;
+  }
   if(error){
     saving(income.value, savePercentage, balance);
   }
