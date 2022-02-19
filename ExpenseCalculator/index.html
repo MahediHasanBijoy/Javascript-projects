@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Expense Calculator</title>
+</head>
+<body>
+	<header>
+		<h1>Expense Calculator</h1>
+	</header>
+	<div>
+		<h3>Income</h3>
+		<label for="income">Income:</label>
+		<input  type="number" id="income"><br>
+		<span id="error-income"></span>
+    </div>
+    <div>
+    	<h3>Expenses</h3>
+    	<div>
+    		<label for="food">Food</label>
+			<input  type="number" id="food"><br>
+			<span id="error-food"></span>
+    	</div>
+		<div>
+			<label for="rent">Rent</label>
+			<input type="number" id="rent"><br>
+			<span id="error-rent"></span>
+		</div>
+		<div>
+			<label for="clothes">Clothes</label>
+			<input type="number" id="clothes"><br>
+			<span id="error-clothes"></span>
+		</div>
+
+		<span id="error-expense"></span>	
+    </div>
+	
+
+	<button type="submit" id="calc">Calculate</button>
+	<br>
+	<!-- error when expense is greater than balance -->
+	<span id="error-bal"></span>
+
+	<p id="total-expense">Total Expenses: </p>
+
+	<p>Balance: <span id="balance"></span></p>
+
+<div>
+		<label for="">Saving</label>
+		
+		<input type="number" id="save">
+		<span>%</span>
+		<button type="submit" id="save-btn">Save</button><br>
+		<span id="error-save"></span>
+	</div>
+
+	<!-- error when saving amount is greater than current balance -->
+	<span id="error-notsave"></span>
+
+	<p id="saving-amount">Saving Amount: </p>
+	<p id="remaining-balance">Remaining Balance: </p><br>
+
+
+
+
+	<script src="main.js"></script>
+
+</body>
+</html>

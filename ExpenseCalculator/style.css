@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+#error-income,
+#error-food,
+#error-rent,
+#error-clothes,
+#error-expense,
+#error-save,
+#error-bal,
+#error-notsave{
+	color: red;
+}
+
+
+html{
+	font-family: Poppins, sans-serif;
+}
+
+header{
+	text-align: center;
+}
