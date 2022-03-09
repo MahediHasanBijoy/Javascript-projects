@@ -1,0 +1,20 @@
+[
+	{
+	"id": 1,
+	"name": "John Doe",
+	"company": "xyz designs",
+	"phone": "018202020022"
+	},
+	{
+	"id": 2,
+	"name": "Mahedi Hasan",
+	"company": "synopsis tech",
+	"phone": "018404040404"
+	},
+	{
+	"id": 3,
+	"name": "Farzana Hossain",
+	"company": "googole",
+	"phone": "018303030303"
+	}
+]
